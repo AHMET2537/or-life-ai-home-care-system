@@ -1,0 +1,43 @@
+{
+  "patient_id": "ort_a_02",
+  "mode": "EMERGENCY_RESPONSE",
+
+  "risk_assessment": {
+    "risk_level": "RED",
+    "risk_score": 9.6,
+    "or_life_code": 4444,
+    "priority": "CRITICAL",
+    "confidence": 0.96,
+    "status": "Unsafe to Remain Alone"
+  },
+
+  "clinical_summary": {
+    "interpretation": [
+      "Glucose and HbA1c progressively increasing",
+      "Blood pressure remains uncontrolled",
+      "CRP trending upward",
+      "Renal function slightly worsening"
+    ],
+    "conclusion": "High probability of acute cardiovascular event"
+  },
+
+  "actions_triggered": [
+    "Siren activated",
+    "Door unlocked",
+    "Neighbors alerted",
+    "EMS notified (112)"
+  ],
+
+  "neighbor_guidance": [
+    "Stay with patient",
+    "Do not move aggressively",
+    "Wait for EMS"
+  ],
+
+  "ems_summary": {
+    "priority": "CRITICAL",
+    "situation": "Elderly patient with worsening metabolic and cardiovascular markers",
+    "risk": "Acute event likely",
+    "status": "Immediate response required"
+  }
+}
