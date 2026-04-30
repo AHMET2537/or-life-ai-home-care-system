@@ -1,0 +1,41 @@
+{
+  "patient_id": "ort_b_06",
+  "mode": "HOME_MONITORING_ESCALATION",
+
+  "trigger": {
+    "type": "voice_input",
+    "message": "I feel weaker tonight"
+  },
+
+  "risk_assessment": {
+    "risk_level": "HIGH",
+    "risk_score": 8.9,
+    "or_life_code": 3333,
+    "priority": "URGENT",
+    "confidence": 0.94,
+    "status": "Unsafe to Remain Alone"
+  },
+
+  "clinical_summary": {
+    "interpretation": [
+      "Severe anemia (Hb dropped to 7.0)",
+      "Ferritin critically low",
+      "CRP and LDH markedly elevated",
+      "Persistent abnormalities over time"
+    ],
+    "conclusion": "High risk of acute deterioration"
+  },
+
+  "complex_case_flag": {
+    "condition": "Possible Splenic Marginal Zone Lymphoma",
+    "recommendation": "Hematologic malignancy workup required"
+  },
+
+  "actions_triggered": [
+    "Urgent specialist referral",
+    "Close monitoring activated",
+    "112 EMS escalated"
+  ],
+
+  "insight": "Escalation occurred without a panic button trigger"
+}
