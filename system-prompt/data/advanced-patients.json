@@ -1,0 +1,41 @@
+{
+  "patients": [
+    {
+      "patient_id": "ort_a_02",
+      "role": "Emergency Response Case",
+      "conditions": ["Diabetes", "Hypertension"],
+      "living_alone": true,
+      "labs_timeline": {
+        "2025_1y": {"glucose": 148, "hba1c": 7.2, "sbp": 150, "crp": 3.1, "creatinine": 0.92, "ldl": 132},
+        "2025_6m": {"glucose": 158, "hba1c": 7.5, "sbp": 154, "crp": 4.0, "creatinine": 0.96, "ldl": 140},
+        "2026_3m": {"glucose": 165, "hba1c": 7.8, "sbp": 158, "crp": 4.7, "creatinine": 1.00, "ldl": 149},
+        "current": {"glucose": 182, "hba1c": 8.1, "sbp": 165, "crp": 6.2, "creatinine": 1.05, "ldl": 155}
+      }
+    },
+    {
+      "patient_id": "ort_a_04",
+      "role": "Routine Monitoring Case",
+      "conditions": ["Hypertension"],
+      "living_alone": true,
+      "labs_timeline": {
+        "2025_1y": {"glucose": 96, "creatinine": 0.78, "ldl": 132, "crp": 0.8, "egfr": 78, "hemoglobin": 14.8},
+        "2025_6m": {"glucose": 95, "creatinine": 0.77, "ldl": 135, "crp": 0.7, "egfr": 79, "hemoglobin": 15.0},
+        "2026_3m": {"glucose": 95, "creatinine": 0.76, "ldl": 136, "crp": 0.68, "egfr": 80, "hemoglobin": 15.1},
+        "current": {"glucose": 94, "creatinine": 0.75, "ldl": 137, "crp": 0.64, "egfr": 81, "hemoglobin": 15.2}
+      }
+    },
+    {
+      "patient_id": "ort_b_06",
+      "role": "Home Monitoring Escalation Case",
+      "conditions": ["Hypothyroidism", "Severe Iron Deficiency Anemia"],
+      "living_alone": true,
+      "voice_input": "I feel weaker tonight.",
+      "labs_timeline": {
+        "2025_1y": {"hemoglobin": 10.8, "ferritin": 12, "crp": 5, "ldh": 290, "platelet": 210, "wbc": 6.7},
+        "2025_6m": {"hemoglobin": 10.0, "ferritin": 10, "crp": 8, "ldh": 310, "platelet": 205, "wbc": 6.4},
+        "2026_3m": {"hemoglobin": 9.2, "ferritin": 8, "crp": 11, "ldh": 330, "platelet": 196, "wbc": 6.3},
+        "current": {"hemoglobin": 7.0, "ferritin": 4, "crp": 20, "ldh": 480, "platelet": 180, "wbc": 6.2}
+      }
+    }
+  ]
+}
