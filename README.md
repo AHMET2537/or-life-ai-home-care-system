@@ -38,6 +38,31 @@ OR-LIFE is a **multi-agent AI system** designed for rural and home-based care.
 It transforms isolated homes into **connected points of care**.
 
 ---
+---
+
+## Live Intelligence Demonstrations
+
+### Emergency Escalation Intelligence
+- Detects progressive deterioration before physiological collapse
+- Activates rural coordination workflows
+- Prioritizes EMS and community response
+
+### Predictive Escalation
+- Identifies longitudinal worsening trends
+- Explains escalation reasoning transparently
+- Triggers specialist referral before crisis occurs
+
+### Stability Intelligence
+- Detects clinically stable trajectories
+- Prevents unnecessary escalation
+- Supports safe routine home monitoring
+
+### Multi-Patient Prioritization
+- Dynamically ranks high-risk patients
+- Coordinates village-level response resources
+- Supports low-resource rural healthcare systems
+
+---
 
 ## Core Capabilities
 
