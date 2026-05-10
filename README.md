@@ -1,6 +1,19 @@
-# OR-LIFE: AI Rural Home Care Coordination System
+# OR-LIFE
 
-**AI that acts before emergencies become tragedies.**
+## AI Rural Home Care Coordination & Predictive Escalation System
+
+OR-LIFE is an AI-powered rural healthcare coordination platform designed to detect clinical deterioration before physiological collapse occurs.
+
+The platform combines:
+
+- Predictive AI
+- MCP Architecture
+- Multi-Agent Coordination
+- Longitudinal Clinical Reasoning
+- Rural Emergency Routing
+- Community + EMS Activation
+
+OR-LIFE transforms healthcare from reactive response into proactive coordination for vulnerable rural populations.
 
 ---
 
